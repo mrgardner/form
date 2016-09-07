@@ -1,0 +1,22 @@
+h3 {
+  position: relative;
+  left: 43%;
+}
+
+.container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+p,
+ul,
+ul li {
+  font-family: arial;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    left: 25%;
+  }
+}
